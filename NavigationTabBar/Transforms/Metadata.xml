@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='com.gigamole.navigationtabbar.behavior']/class[@name='VerticalScrollingBehavior']" name="visibility">public</attr>
+
+	<remove-node path="/api/package[@name='com.gigamole.navigationtabbar.behavior']/class[@name='VerticalScrollingBehavior']/method[@name='getScrollDirection' and count(parameter)=0]" />
+
+	<attr path="/api/package[@name='com.gigamole.navigationtabbar.behavior']/class[@name='NavigationTabBarBehavior']/method[@name='onDirectionNestedPreScroll' and count(parameter)=0]" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.gigamole.navigationtabbar.behavior']/class[@name='NavigationTabBarBehavior']/method[@name='onNestedVerticalOverScroll' and count(parameter)=0]" name="visibility">protected</attr>
+</metadata>
